@@ -22,7 +22,7 @@ class CartController extends Controller
     {
         $cart = Cart::create([
             'customer_id' => $request->customer_id,
-            'product_id' => $request->product_id,
+            'furniture_id' => $request->furniture_id,
             'quantity' => $request->quantity,
         ]);
 
